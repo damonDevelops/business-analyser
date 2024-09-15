@@ -1,3 +1,7 @@
+streamlit
 requests
 pandas
-beautifulsoup4
+textblob
+
+# make sure you also do the following: 
+# python -m textblob.download_corpora
