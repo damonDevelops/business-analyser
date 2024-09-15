@@ -11,12 +11,12 @@ def main():
 
     ### How to Contribute
 
-    1. **Fork the Repository** on [GitHub](https://github.com/damonDevelops/python-business-analyser).
+    1. **Fork the Repository** on [GitHub](https://github.com/damonDevelops/business-analyser).
 
     2. **Clone Your Fork** to your local machine.
 
        ```bash
-       git clone https://github.com/damonDevelops/python-business-analyser.git
+       git clone https://github.com/damonDevelops/business-analyser.git
        cd business-analyzer
        ```
 
@@ -42,11 +42,11 @@ def main():
 
     ### Reporting Issues
 
-    If you find any bugs or have suggestions for improvements, please [open an issue](https://github.com/damonDevelops/python-business-analyser) on GitHub.
+    If you find any bugs or have suggestions for improvements, please [open an issue](https://github.com/damonDevelops/business-analyser) on GitHub.
 
     ### License
 
-    This project is licensed under the [MIT License](https://github.com/damonDevelops/python-business-analyser/blob/master/LICENSE).
+    This project is licensed under the [MIT License](https://github.com/damonDevelops/business-analyser/blob/master/LICENSE).
 
     ### Acknowledgements
 
