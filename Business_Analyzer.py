@@ -1,4 +1,6 @@
 import streamlit as st
+import streamlit_extras
+from streamlit_extras.buy_me_a_coffee import button
 import requests
 import pandas as pd
 import time
@@ -509,9 +511,10 @@ st.set_page_config(page_title="Business Analyzer", layout="wide")
 
 st.markdown("# 📈 Business Analyzer by [@DamonDevelops](https://damon-develops.tech)")
 
+button(username="damonDevelops", floating=False, width=300, font="Poppins")
 
 st.markdown("""
-I built this application to assist me in looking for potential clients for my web development business [Revamp Web Studios](https://www.revampwebstudio.com.au). The tool works by analysing nearby Google Places and assesses them based on weighted criteria to determine which are the best to approach. Enter your **Google Places API Key**, **Location**, **Industry**, and configure your grading preferences to get started.
+I built this application to assist me in looking for potential clients for my web development business [Revamp Web Studios](https://www.revampwebstudio.com.au). The tool works by analysing nearby Google Places and assesses them based on weighted criteria to determine which are the best to approach. Enter your **Google Places API Key**, **Location**, **Industry**, and configure your grading preferences to get started. If you like the webapp and it helped you out at all, if you can afford to leave me a tip I'd greatly appreciate it :)!
 """)
 
 with st.form("business_form"):
